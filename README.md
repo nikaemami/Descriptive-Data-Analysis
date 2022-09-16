@@ -1,2 +1,2 @@
-# kaggle-data-analysis
-Descriptive statistics analysis of an automobile dataset on kaggle.
+# Kaggle-data-analysis
+Descriptive statistics analysis of an automobile dataset on Kaggle.
