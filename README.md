@@ -12,8 +12,7 @@ A) If a car is longer, it has also greater width:
 ```ruby
 plot1<-ggplot(data=sample)+geom_point(mapping = aes (x=length , y=width))
 ```
-
-![My Image](images/1.png)
+<img src="images/1.png" width="400" height="400">
 
 The statement is approved, since the diagram is ascending.
 
@@ -23,7 +22,7 @@ B) In the distribution related to the heights and widths of the cars, the points
 plot2<-ggplot(data=sample)+geom_point(mapping = aes (x=length ,  y=width , color=num.of.doors))
 ```
 
-![My Image](images/2.png)
+<img src="images/2.png" width="400" height="400">
 
 As it can be seen, these 2 parameters do not relate.
 
@@ -33,7 +32,7 @@ C) In the distribution related to the heights and widths of the cars, hatchback 
 plot3<-ggplot(data=sample)+geom_point(mapping = aes (x=length , y=width , color=body.style))
 ```
 
-![My Image](images/3.png)
+<img src="images/3.png" width="400" height="400">
 
 As it can be seen, the statement is almost correct.
 
@@ -43,7 +42,7 @@ D) The wider a car, the more resistance it shows to air force. Also it is probab
 plot4<-ggplot(data=sample)+geom_point(mapping = aes (x=width , y=engine.size))
 ```
 
-![My Image](images/4.png)
+<img src="images/4.png" width="400" height="400">
 
 As it can be seen, these 2 parameters have **direct** relationship.
 
@@ -54,7 +53,7 @@ E) Engine size and horsepower have direct relation in a car.
 ggplot(data=sample)+geom_point(mapping = aes (x=horsepower , y=engine.size))
 ```
 
-![My Image](images/5.png)
+<img src="images/5.png" width="400" height="400">
 
 As it can be seen, these 2 parameters do not have **direct** relationship.
 
@@ -64,7 +63,7 @@ F) Relation between the price of the cars and their brand and model.
 ggplot(data=sample)+geom_point(mapping = aes (x=make , y=price))
 ```
 
-![My Image](images/6.png)
+<img src="images/6.png" width="400" height="400">
 
 As it can be seen, the price doesn't vary much, and the plot needs to be improved.
 
@@ -74,7 +73,7 @@ G) Relation between weight of a car and the engine size.
 ggplot(data=sample)+geom_point(mapping = aes (x=curb.weight,y=engine.size ))
 ```
 
-![My Image](images/7.png)
+<img src="images/7.png" width="400" height="400">
 
 As it can be seen, these 2 parameters have **direct** relationship.
 
@@ -85,5 +84,5 @@ p <- ggplot(sample, aes(make,price))
 p + geom_jitter()
 ```
 
-![My Image](images/8.png)
+<img src="images/8.png" width="400" height="400">
 
